@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>shard</title>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/shard.svg" type="image/x-icon">
+
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="header_toogether">
+			<div class="header_text_block">
+				<p class="header_text_main">Shards</p>
+				<p class="header_text_sec">A modern UI toolking for web makets.</p>
+			</div>
+			<div class="header_btn_block">
+				<a href="#" class="header_btn_href_now">Download Now</a>
+				<a href="#" class="header_btn_href_more">Learn More</a>
+			</div>
+		</div>
+		<div class="header_product">
+			<p class="header_product_text">A PRODUCT BY</p>
+			<img src="img/designrevision.svg">
+			<div class="header_product_text_block">
+				<p class="header_product_text_sec">
+				Shards is a modern design system based on Bootstrap 4 that comes packed with 10 <br>
+				extra custom components and two pre-built landing pages. It’s also lightweight with<br>
+				its stylesheet weighting only ~12kb minified and gzipped.
+				</p>
+			</div>
+		</div>
+	</header>
+	<nav class="navbar navbar-expand-lg navbar-light header_menu">
+		<a class="navbar-brand" href="#"><img src="img/Shards - LogoD.svg" alt="" class="shardImg">Shards</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	 
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto">
+			 <li class="nav-item">
+				<a class="nav-link" href="#colors">Color</a>
+			 </li>
+			 <li class="nav-item">
+				<a class="nav-link" href="#typography">Typography</a>
+			 </li>
+			 <li class="nav-item">
+				<a class="nav-link" href="#icon">Icon</a>
+			 </li>
+			 <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  More
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <li><a class="dropdown-item text-success" href="#form">Form</a></li>
+				  <li><a class="dropdown-item text-danger" href="#cards">Cards</a></li>
+				  <li><a class="dropdown-item text-info" href="#buttons">Buttons</a></li>
+				  <li><a class="dropdown-item text-danger" href="#alert">Alert</a></li>
+				  <li><a class="dropdown-item text-primary" href="#navbars">Navbars</a></li>
+				  <li><a class="dropdown-item text-warning" href="#extras">Extras</a></li>
+				  <li><a class="dropdown-item text-" href="#docs">Docs</a></li>
+				</ul>
+			 </li>
+		  </ul>
+		  <form class="form-inline my-2 my-lg-0 header_menu_none">
+			  <i class="navbar_img"> <img src="img/inD.png" alt="" class="navbars_img"></i>
+			  <i class="navbar_img"> <img src="img/gitD.png" alt="" class="navbars_img"></i>
+			  <i class="navbar_img"><img src="img/twitterD.png" alt="" class="navbars_img"></i>
+			  <i class="navbar_img"> <img src="img/facebookD.png" alt="" class="navbars_img"></i>
+		  </form>
+		</div>
+	 </nav>
+	<div class="color_block" id="colors">
+		<div class="color_block_text">
+			<p class="color_block_text_main">Colors</p>
+			<p class="color_block_text_second">
+				We've enhanced Bootstrap’s semantic color selection with brighter color variations in<br>
+				order to improve the contrast and accessibility.
+			</p>
+		</div>
+		<div class="color_block_row">
+			<div class="color_block_col col-3">	
+				<div class="color_block_col_circle bg-primary"></div>	
+				<div class="color_block_col_text">
+					<p class="color_block_col_text_main">Primary</p>
+					<p class="color_block_col_text_sec">#0067f4</p>
+				</div>
+			</div>
+			<div class="color_block_col col-3">	
+				<div class="color_block_col_circle bg-secondary"></div>	
+				<div class="color_block_col_text">
+					<p class="color_block_col_text_main">Secondary</p>
+					<p class="color_block_col_text_sec">#5A6169</p>
+				</div>
+			</div>
+			<div class="color_block_col col-3">	
+				<div class="color_block_col_circle bg-success"></div>	
+				<div class="color_block_col_text">
+					<p class="color_block_col_text_main">Success</p>
+					<p class="color_block_col_text_sec">#17c671</p>
+				</div>
+			</div>
+			<div class="color_block_col col-3">	
+				<div class="color_block_col_circle bg-info"></div>	
+				<div class="color_block_col_text">
+					<p class="color_block_col_text_main">info</p>
+					<p class="color_block_col_text_sec">#00b8d8</p>
+				</div>
+			</div>	
+			<div class="color_block_col col-3">	
+				<div class="color_block_col_circle bg-warning"></div>	
+				<div class="color_block_col_text">
+					<p class="color_block_col_text_main">Warning</p>
+					<p class="color_block_col_text_sec">#ffb400</p>
+				</div>
+			</div>
+			<div class="color_block_col col-3">	
+				<div class="color_block_col_circle bg-danger"></div>	
+				<div class="color_block_col_text">
+					<p class="color_block_col_text_main">Danger</p>
+					<p class="color_block_col_text_sec">#C4183c</p>
+				</div>
+			</div>
+			<div class="color_block_col col-3">	
+				<div class="color_block_col_circle bg-light"></div>	
+				<div class="color_block_col_text">
+					<p class="color_block_col_text_main">Light</p>
+					<p class="color_block_col_text_sec">#e9ecef</p>
+				</div>
+			</div>
+			<div class="color_block_col col-3">	
+				<div class="color_block_col_circle bg-dark"></div>	
+				<div class="color_block_col_text">
+					<p class="color_block_col_text_main">Dark</p>
+					<p class="color_block_col_text_sec">#212529</p>
+				</div>
+			</div>			
+		</div>
+	</div>
+	<div class="typography_block" id="typography">
+		<div class="typography_block_text">
+			<p class="typography_block_text_main">Typography</p>
+			<p class="typography_block_text_second">
+				We've enhanced Bootstrap’s semantic color selection with brighter color variations in<br>
+				order to improve the contrast and accessibility.
+			</p>
+		</div>
+
+		<div class="allTypog" data-aos="zoom-in"> 
+			<div class="typography_block_main">
+				<div class="typography_row1">
+					<div class="col-2">TYPE</div>
+					<div class="col-4">EXAMPLE</div>
+					<div class="col-2">FONT</div>
+					<div class="col-2">FONT SIZE</div>
+					<div class="col-2">LINE HEIGHT</div>
+				</div>
+	
+				<div class="typography_row2">
+					<div class="col-2">Heading 1</div>
+					<div class="col-4 typography_row2_col">ABCabc</div>
+					<div class="col-2">Poppins Regular</div>
+					<div class="col-2">3.052 REM</div>
+					<div class="col-2">3 REM</div>
+				</div>
+	
+				<div class="typography_row3">
+					<div class="col-2">Heading 2</div>
+					<div class="col-4 typography_row3_col">ABCabc</div>
+					<div class="col-2">Poppins Regular</div>
+					<div class="col-2">2.441 REM</div>
+					<div class="col-2">2.25 REM</div>
+				</div>
+	
+				<div class="typography_row4">
+					<div class="col-2">Heading 3</div>
+					<div class="col-4 typography_row4_col">ABCabc</div>
+					<div class="col-2">Poppins Regular</div>
+					<div class="col-2">1.953 REM</div>
+					<div class="col-2">2.25 REM</div>
+				</div>
+	
+				<div class="typography_row5">
+					<div class="col-2">Paragraph</div>
+					<div class="col-4 typography_row5_col">ABCabc</div>
+					<div class="col-2">System UI / Roboto</div>
+					<div class="col-2">1 REM</div>
+					<div class="col-2">1.5</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			const block = document.querySelector('.allTypog')
+
+			window.addEventListener("scroll", ()=> {
+				let i = block.pageYOffset
+				console.log(i);
+				block.style.left = window.scrollY * i + "px"
+			})
+		</script>
+	</div>
+
+	<div class="icon_block" id="icon">
+		<div class="icon_block_text">
+			<p class="icon_blockS_text_main">Icon Packs <b data-aos="zoom-in-up">🦄</b></p>
+			<p class="icon_blockS_text_sec">
+				 Shards supports by default both Material and FontAwesome packs. Icons can be placed in<br>
+				 almost any element without the need of modifying the kit.</p>
+		</div>
+		<div class="icon_blocks">
+			<div class="icon_blocks1">
+				<div class="icon_block_circle1" data-aos="zoom-in-down">
+					<div class="icon_circle1_block2"></div>
+					<div class="icon_circle1_block3"></div>
+				</div>
+					<p class="icon_block_text_main">Material Icons</p>
+					<p class="icon_block_text_sec">Over 900+ Icon</p>
+			</div>
+			<div class="icon_blocks2">
+				<div class="icon_block_circle2" data-aos="zoom-in-up">
+					<div class="icon_block_circle2_block"></div>
+				</div>
+					<p class="icon_block_text_main">Font Awesome</p>
+					<p class="icon_block_text_sec">Over 600+ Icon</p>
+			</div>
+		</div>
+	</div>
+	<div class="form_block" id="form">
+		<div class="form_text">
+			<p class="form_text_1">Form Controls</p>
+			<p class="form_text_2">
+				All form controls are improved with micro-transitions and shadows that bring depth and
+				 improve the overall user experience.</p>
+		</div>
+		<div class="form_block_simple">
+			<p class="form_simple_text">Simple Forms</p>
+
+			<form class="needs-validation" novalidate>
+				<div class="form-row">
+				  <div class="col-md-6 mb-3">
+					 <label for="validationCustom01">First Name</label>
+					 <input type="text" class="form-control" id="validationCustom01" value="Catalin" required>
+					 <div class="valid-feedback">
+						Looks good!
+					 </div>
+				  </div>
+				  <div class="col-md-6 mb-3">
+					 <label for="validationCustom02">Last Name</label>
+					 <input type="text" class="form-control" id="validationCustom02" value="Vasile" required>
+					 <div class="valid-feedback">
+						Looks good!
+					 </div>
+				  </div>
+				  <div class="col-md-6 mb-3">
+					<label for="validationCustom02">Email Adress</label>
+					<input type="text" class="form-control" id="validationCustom02" value="contact@catalin.me" required>
+					<div class="valid-feedback">
+					  Looks good!
+					</div>
+				 </div>
+				 <div class="col-md-6 mb-3">
+					<label for="validationCustom02">Password</label>
+					<input type="text" class="form-control" id="validationCustom02" placeholder="Password" required>
+					<div class="valid-feedback">
+					  Looks good!
+					</div>
+				 </div>			 
+				</div>
+
+				<div class="form-row">
+					<div class="col-6">
+						<label for="validationCustom02">Location</label>
+						<input type="text" class="form-control" id="validationCustom02" placeholder="Location" required>
+						<div class="valid-feedback">
+						  Looks good!
+						</div>
+					 </div>
+				  <div class="col-3 label">
+					 <label for="validationCustom04">State</label>
+					 <select class="custom-select custom-selects" id="validationCustom04" required>
+						<option selected disabled value="">Choose One</option>
+						<option>...</option>
+					 </select>
+					 <div class="invalid-feedback">
+						Please select a valid state.
+					 </div>
+				  </div>
+				  <div class="col-3">
+					<label for="validationCustom02">Zip Code</label>
+					<input type="text" class="form-control" id="validationCustom02" placeholder="Zip Code" required>
+					<div class="valid-feedback">
+					  Looks good!
+					</div>
+				 </div>
+				</div>
+				<button class="btn btn-primary form_btn" type="submit">Submit form</button>
+			 </form>		
+		</div>
+
+		<div class="custom_block">
+			<p class="custom_text1">Custom Controls</p>
+			<p class="custom_text2">The default custom form fields are improved and extended. One of the new additions being the toggle switch control.</p>
+			
+			<div class="custom_row row">
+				<div class="costum_col col-4">
+					<p class="custom_text">Checkboxes</p>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="customCheck1">
+						<label class="custom-control-label" for="customCheck1">Pizza</label>
+					 </div>
+					 <div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="customCheck2">
+						<label class="custom-control-label" for="customCheck2">Pasta</label>
+					 </div>
+					 <div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="customCheck3">
+						<label class="custom-control-label" for="customCheck3">Burgers</label>
+					 </div>
+					 <div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="customCheck4">
+						<label class="custom-control-label" for="customCheck4">Tacos</label>
+					 </div>
+				</div>
+				<div class="custom_col col-4">
+					<p class="custom_text">Radio Buttons</p>
+					<div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" id="customRadioInline1" name="customRadioInline" class="custom-control-input">
+						<label class="custom-control-label" for="customRadioInline1">Cookies</label>
+					 </div>
+					 <div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" id="customRadioInline2" name="customRadioInline" class="custom-control-input">
+						<label class="custom-control-label" for="customRadioInline2">Pancakes</label>
+					 </div>
+					 <div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" id="customRadioInline3" name="customRadioInline" class="custom-control-input">
+						<label class="custom-control-label" for="customRadioInline3">Chocolate</label>
+					 </div>
+					 <div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" id="customRadioInline4" name="customRadioInline" class="custom-control-input">
+						<label class="custom-control-label" for="customRadioInline4">Milkshake</label>
+					 </div>
+				</div>
+				<div class="custom_col col-4">
+					<p class="custom_text">Toggles</p>
+					<div class="custom-control custom-switch">
+						<input type="checkbox" class="custom-control-input" id="customSwitch1">
+						<label class="custom-control-label" for="customSwitch1">Rockets</label>
+					 </div>
+					 <div class="custom-control custom-switch">
+						<input type="checkbox" class="custom-control-input" id="customSwitch2">
+						<label class="custom-control-label" for="customSwitch2">Lasers</label>
+					 </div>
+					 <div class="custom-control custom-switch">
+						<input type="checkbox" class="custom-control-input" id="customSwitch3">
+						<label class="custom-control-label" for="customSwitch3">HAL 9K</label>
+					 </div>
+					 <div class="custom-control custom-switch">
+						<input type="checkbox" class="custom-control-input" id="customSwitch4">
+						<label class="custom-control-label" for="customSwitch4">Ultron</label>
+					 </div>
+				</div>
+					
+				<div class="col-5">
+					<label for="validationTooltip04">Custom Dropdown</label>
+					<select class="custom-select" id="validationTooltip04" required>
+					  <option selected disabled value="">Two</option>
+					  <option>...</option>
+					  <option>...</option>
+					  <option>...</option>
+					</select>
+					<div class="invalid-tooltip">
+					  Please select a valid state.
+					</div>	
+				</div>
+				<div class="col-5">
+					<div class="custom-file">
+						<input type="file" class="custom-file-input" id="customFileLangHTML">
+						<label class="custom-file-label" for="customFileLangHTML" data-browse="Value">Choosr file...</label>
+					 </div>
+				</div>				
+		  </div>
+	  </div>
+ </div>
+ 	<div class="cards_block" id="cards">
+		 <div class="cards_text">
+			 <p class="card_text_main">Cards</p>
+			 <p class="card_text_sec">
+				We wanted cards to stand out and bring depth without changing their original structure. All of
+				this while allowing them to play well with the other components.
+			 </p>
+		 </div>
+
+		 <div class="cards_row">
+			 <div class="cards_col">
+				 <div class="cards_col_img"><img src="img/cards1.svg"  class="img_cards" alt="1"></div>
+					<div class="cards_inlian">
+						<p class="cards_text1">Sample Card Title</p>
+						<p class="cards_text_sec">
+						He seems sinking under the evidence
+						could not only grieve and a visit. The
+						father is to bless and placed in his length
+						hid...</p>
+						<a href="#" class="cards_btn">Read More</a>
+					</div>
+			</div>
+			 <div class="cards_col">
+				 <div class="cards_col_img"><img src="img/cards2.svg"  class="img_cards" alt="2"></div>
+					<div class="cards_inlian">
+						<p class="cards_text1">Sample Card Title</p>
+						<p class="cards_text_sec">
+						He seems sinking under the evidence
+						could not only grieve and a visit. The
+						father is to bless and placed in his length
+						hid...</p>
+						<a href="#" class="cards_btn">Read More</a>
+					</div>
+			</div>
+			 <div class="cards_col">
+				 <div class="cards_col_img"><img src="img/cards3.svg"  class="img_cards" alt="3"></div>
+					<div class="cards_inlian">
+						<p class="cards_text1">Sample Card Title</p>
+						<p class="cards_text_sec">
+						He seems sinking under the evidence
+						could not only grieve and a visit. The
+						father is to bless and placed in his length
+						hid...</p>
+						<a href="#" class="cards_btn">Read More<div class="btn_hover_card"></div></a>
+					</div>
+			</div>
+		 </div>
+	 </div>
+
+	 <div class="buttons_block" id="buttons">
+		 <div class="buttons_text">
+			 <p class="buttons_text_main">Buttons</p>
+			 <p class="buttons_text_sec">
+				 Two new button modifers are introduced in Shards that allow you to create pill-shaped and<br>
+				 squared buttons for both filled and outlined variations for an extended range of  possible <br>
+				 combinations.
+			 </p>
+		 </div>
+
+		 <div class="buttons_row">
+			 <div class="buttons_col" data-aos="fade-in" data-aos-duration="500">
+				 <div class="button_colFirst btn btn-primary">Primary</div>
+				 <div class="button_colFirst btn btn-outline-primary">Primary</div>
+			 </div>
+			 <div class="buttons_col" data-aos="fade-in" data-aos-duration="700">
+				<div class="button_colFirst btn btn-secondary">Secondary</div>
+				<div class="button_colFirst btn btn-outline-secondary">Secondary</div>
+			</div>
+			 <div class="buttons_col" data-aos="fade-in" data-aos-duration="900">
+				<div class="button_colFirst btn btn-success">Success</div>
+				<div class="button_colFirst btn btn-outline-success">Success</div>
+			 </div>
+			 <div class="buttons_col" data-aos="fade-in" data-aos-duration="1100">
+				<div class="button_colFirst btn btn-danger">Danger</div>
+				<div class="button_colFirst btn btn-outline-danger">Danger</div>
+			 </div>
+			 <div class="buttons_col" data-aos="fade-in" data-aos-duration="1300">
+				<div class="button_colFirst btn btn-warning">Warning</div>
+				<div class="button_colFirst btn btn-outline-warning">Warning</div>
+			 </div>
+			 <div class="buttons_col" data-aos="fade-in" data-aos-duration="1500">
+				<div class="button_colFirst btn btn-info">Info</div>
+				<div class="button_colFirst btn btn-outline-info">Info</div>
+			 </div>
+			 <div class="buttons_col" data-aos="fade-in" data-aos-duration="1700">
+				<div class="button_colFirst btn btn-light">Light</div>
+				<div class="button_colFirst btn btn-outline-light">Light</div>
+			 </div>
+			 <div class="buttons_col" data-aos="fade-in" data-aos-duration="1900">
+				<div class="button_colFirst btn btn-dark">Dark</div>
+				<div class="button_colFirst btn btn-outline-dark">Dark</div>
+			 </div>
+		 </div>
+
+		 <div class="buttons_row">
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="1900">
+				<div class="button_colFirst2 btn btn-primary">Primary</div>
+				<div class="button_colFirst2 btn btn-outline-primary">Primary</div>
+			</div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="1700">
+			  <div class="button_colFirst2 btn btn-secondary">Secondary</div>
+			  <div class="button_colFirst2 btn btn-outline-secondary">Secondary</div>
+		  </div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="1500">
+			  <div class="button_colFirst2 btn btn-success">Success</div>
+			  <div class="button_colFirst2 btn btn-outline-success">Success</div>
+			</div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="1300">
+			  <div class="button_colFirst2 btn btn-danger">Danger</div>
+			  <div class="button_colFirst2 btn btn-outline-danger">Danger</div>
+			</div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="1100">
+			  <div class="button_colFirst2 btn btn-warning">Warning</div>
+			  <div class="button_colFirst2 btn btn-outline-warning">Warning</div>
+			</div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="900">
+			  <div class="button_colFirst2 btn btn-info">Info</div>
+			  <div class="button_colFirst2 btn btn-outline-info">Info</div>
+			</div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="700">
+			  <div class="button_colFirst2 btn btn-light">Light</div>
+			  <div class="button_colFirst2 btn btn-outline-light">Light</div>
+			</div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="500">
+			  <div class="button_colFirst2 btn btn-dark">Dark</div>
+			  <div class="button_colFirst2 btn btn-outline-dark">Dark</div>
+			</div>
+		</div>
+
+		<div class="buttons_row">
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="500">
+				<div class="button_colFirst3 btn btn-primary">Primary</div>
+				<div class="button_colFirst3 btn btn-outline-primary">Primary</div>
+			</div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="700">
+			  <div class="button_colFirst3 btn btn-secondary">Secondary</div>
+			  <div class="button_colFirst3 btn btn-outline-secondary">Secondary</div>
+		  </div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="900">
+			  <div class="button_colFirst3 btn btn-success">Success</div>
+			  <div class="button_colFirst3 btn btn-outline-success">Success</div>
+			</div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="1100">
+				<div class="button_colFirst3 btn btn-danger">Danger</div>
+			  <div class="button_colFirst3 btn btn-outline-danger">Danger</div>
+			</div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="1300">
+			  <div class="button_colFirst3 btn btn-warning">Warning</div>
+			  <div class="button_colFirst3 btn btn-outline-warning">Warning</div>
+			</div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="1500">
+			  <div class="button_colFirst3 btn btn-info">Info</div>
+			  <div class="button_colFirst3 btn btn-outline-info">Info</div>
+			</div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="1700">
+			  <div class="button_colFirst3 btn btn-light">Light</div>
+			  <div class="button_colFirst3 btn btn-outline-light">Light</div>
+			</div>
+			<div class="buttons_col" data-aos="fade-in" data-aos-duration="1900">
+			  <div class="button_colFirst3 btn btn-dark">Dark</div>
+			  <div class="button_colFirst3 btn btn-outline-dark">Dark</div>
+			</div>
+		</div>		 
+	 </div>
+
+	 <div class="alert_block" id="alert">
+		 <p class="alert_text">Alert</p>
+
+		 <div class="alert_inBlock bg-info in_alert1"><img src="img/info_icon.svg" alt="" class="svg_alert">Hey! I think you should know this.</div>
+		 <div class="alert_inBlock bg-success in_alert2"><img src="img/checkmark_icon.svg" alt="" class="svg_alert">Yay! Everything is fine!</div>
+		 <div class="alert_inBlock bg-warning in_alert3"><img src="img/warning_icon.svg" alt="" class="svg_alert">Oops! Something might be wrong</div>
+		 <div class="alert_inBlock bg-danger in_alert4"><img src="img/danger_icon.svg" alt="" class="svg_alert">On no! Something really bad happened!</div>
+	 </div>
+
+	 <div class="navbars_block" id="navbars">
+			<div class="navbars_block_text">
+				<p class="navbars_text_main">Navbars</p>
+				<p class="navbars_text_sec">
+					Create beautiful, bold and responsive navbars using the same Bootstrap 4 markup structure
+					you already know and love.</p>
+			</div>
+
+			<div class="navbars_inBlock">
+				<div class="inBlock_row">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+						<a class="navbar-brand" href="#"><img src="img/Shards - LogoL.svg" alt="" class="shardImg">Shards</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+					 
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						  <ul class="navbar-nav mr-auto"">
+							 <li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Features</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Pricing</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Services</a>
+							 </li>
+						  </ul>
+						  <form class="form-inline my-2 my-lg-0">
+							  <i class="navbar_img"><img src="img/twitterL.png" alt="" class="navbars_img"></i>
+							  <i class="navbar_img"> <img src="img/facebookL.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/inL.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/gitL.png" alt="" class="navbars_img"></i>
+						  </form>
+						</div>
+					 </nav>
+				</div>
+
+				<div class="inBlock_row">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+						<a class="navbar-brand" href="#"><img src="img/Shards - LogoL.svg" alt="" class="shardImg">Shards</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+					 
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						  <ul class="navbar-nav mr-auto"">
+							 <li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Features</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Pricing</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Services</a>
+							 </li>
+						  </ul>
+						  <form class="form-inline my-2 my-lg-0">
+							  <i class="navbar_img"><img src="img/twitterL.png" alt="" class="navbars_img"></i>
+							  <i class="navbar_img"> <img src="img/facebookL.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/inL.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/gitL.png" alt="" class="navbars_img"></i>
+						  </form>
+						</div>
+					 </nav>
+				</div>
+
+				<div class="inBlock_row">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+						<a class="navbar-brand" href="#"><img src="img/Shards - LogoL.svg" alt="" class="shardImg">Shards</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+					 
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						  <ul class="navbar-nav mr-auto"">
+							 <li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Features</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Pricing</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Services</a>
+							 </li>
+						  </ul>
+						  <form class="form-inline my-2 my-lg-0">
+							  <i class="navbar_img"><img src="img/twitterL.png" alt="" class="navbars_img"></i>
+							  <i class="navbar_img"> <img src="img/facebookL.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/inL.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/gitL.png" alt="" class="navbars_img"></i>
+						  </form>
+						</div>
+					 </nav>
+				</div>
+
+				<div class="inBlock_row">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+						<a class="navbar-brand" href="#"><img src="img/Shards - LogoL.svg" alt="" class="shardImg">Shards</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+					 
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						  <ul class="navbar-nav mr-auto"">
+							 <li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Features</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Pricing</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Services</a>
+							 </li>
+						  </ul>
+						  <form class="form-inline my-2 my-lg-0">
+							  <i class="navbar_img"><img src="img/twitterL.png" alt="" class="navbars_img"></i>
+							  <i class="navbar_img"> <img src="img/facebookL.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/inL.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/gitL.png" alt="" class="navbars_img"></i>
+						  </form>
+						</div>
+					 </nav>
+				</div>
+
+				<div class="inBlock_row">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+						<a class="navbar-brand" href="#"><img src="img/Shards - LogoL.svg" alt="" class="shardImg">Shards</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+					 
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						  <ul class="navbar-nav mr-auto"">
+							 <li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Features</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Pricing</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Services</a>
+							 </li>
+						  </ul>
+						  <form class="form-inline my-2 my-lg-0">
+							  <i class="navbar_img"><img src="img/twitterL.png" alt="" class="navbars_img"></i>
+							  <i class="navbar_img"> <img src="img/facebookL.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/inL.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/gitL.png" alt="" class="navbars_img"></i>
+						  </form>
+						</div>
+					 </nav>
+				</div>
+
+				<div class="inBlock_row">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+						<a class="navbar-brand" href="#"><img src="img/Shards - LogoL.svg" alt="" class="shardImg">Shards</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+					 
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						  <ul class="navbar-nav mr-auto"">
+							 <li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Features</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Pricing</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Services</a>
+							 </li>
+						  </ul>
+						  <form class="form-inline my-2 my-lg-0">
+							  <i class="navbar_img"><img src="img/twitterL.png" alt="" class="navbars_img"></i>
+							  <i class="navbar_img"> <img src="img/facebookL.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/inL.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/gitL.png" alt="" class="navbars_img"></i>
+						  </form>
+						</div>
+					 </nav>
+				</div>
+
+				<div class="inBlock_row">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+						<a class="navbar-brand" href="#"><img src="img/Shards - LogoD.svg" alt="" class="shardImg">Shards</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+					 
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						  <ul class="navbar-nav mr-auto"">
+							 <li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Features</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Pricing</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#">Services</a>
+							 </li>
+						  </ul>
+						  <form class="form-inline my-2 my-lg-0">
+							  <i class="navbar_img"><img src="img/twitterD.png" alt="" class="navbars_img"></i>
+							  <i class="navbar_img"> <img src="img/facebookD.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/inD.png" alt="" class="navbars_img"></i>
+								<i class="navbar_img"> <img src="img/gitD.png" alt="" class="navbars_img"></i>
+						  </form>
+						</div>
+					 </nav>
+				</div>
+			</div>
+	 </div>
+	 <div class="extras_block" id="extras">
+		 <div class="extras_text">
+			 <div class="extras_present" data-aos="zoom-in-up">🎁</div>
+			 <p class="extras_text_main">Extras</p>
+			 <p class="extras_text_sec">
+				  That's not all! We've prepared two free landing pages built using mostly Shards and<br>
+				  some custom styling to help you start your next project faster.</p>
+		 </div>
+
+			 <div class="extras_content">
+				 <div class="extras_col">
+						<div class="extras_col_content">
+							<div class="img_block"><img src="img/app_landing_preview.png" alt="" class="extras_img"></div>
+							<div class="extras_col_text">App Landing Page</div>
+						</div>
+						<a href="https://designrevision.com/demo/shards/extra/app-promo.html"><button type="button" class="btn btn-outline-primary landing_btn">View Demo</button></a>
+				 </div>
+
+				 <div class="extras_col2">
+					<div class="extras_col_content">
+						<div class="img_block"><img src="img/shards-agency-landing-page-demo.png" alt="" class="extras_img"></div>
+						<div class="extras_col_text">App Landing Page</div>
+					</div>
+					<a href="https://designrevision.com/demo/shards/extra/agency-landing.html"><button type="button" class="btn btn-outline-primary landing_btn">View Demo</button></a>
+				 </div>
+			 </div>
+		 </div>
+
+		 <div class="docks_block" id="docs">
+			 <div class="docs_text">
+				 <div class="docs_svg" data-aos="zoom-in-up">📘</div>
+				 <div class="docs_main">Read the Docs</div>
+				 <div class="docs_sec">Make sure you chech out the documentation and learn more about all the available<br>
+					components and how to use them.</div>
+				 <button type="button" class="btn btn-outline-primary docs_btn">📘Documentation</button>
+			 </div>
+		 </div>
+		 
+		 <div class="build_block">
+			<img src="img/settings.png" alt="" class="build_svg" data-aos="zoom-in-up">
+			<div class="build_text">			
+				<div class="build_main">Build something!</div>
+				<div class="build_sec">What are you waiting for? <a href="#" class="build_href">Go ahead and build something!</a> Can't wait to see what you <br>
+					come up with! If you like Shards, make sure you share it with your friends too!</div>
+			</div>
+
+			<div class="build_btn_block">
+				<div class="btn btn-primary build_btn">
+					<img src="img/twitterL.png" alt="" class="img_build">
+					Share on Twitter
+				</div>
+				<div class="btn btn-primary build_btn">
+					<img src="img/facebookL.png" alt="" class="img_build">
+					Share on Facebook
+				</div>
+				<div class="btn btn-primary build_btn">
+					<img src="img/inL.png" alt="" class="img_build">
+					Share on Linkedin
+				</div>
+			</div>
+		 </div>
+
+		 <footer class="footer">
+			 <p class="footer_text">© Copyright 2017 — DesignRevision</p>
+
+			 <div class="footer_img_block">
+				 <img src="img/twitterD.png" alt="" class="footer_img">
+				 <img src="img/facebookD.png" alt="" class="footer_img">
+				 <img src="img/gitD.png" alt="" class="footer_img">
+			 </div>
+		 </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="vanilla-tilt.min.js"></script>
+<script>
+	VanillaTilt.init(document.querySelectorAll(".color_block_col, .build_svg"), {
+		max: 25,
+		speed: 400,
+	});
+</script>
+<script>
+    AOS.init({
+       duration: 1000,
+    });
+</script>
+</body>
+</html>
